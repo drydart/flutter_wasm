@@ -1,0 +1,24 @@
+# See: https://www.dartlang.org/tools/pub/pubspec
+name: flutter_wasm
+version: 0.0.0
+description: >-
+  Embeddable WebAssembly interpreter for Flutter apps.
+author: Arto Bendiken <arto@bendiken.net>
+homepage: https://github.com/drydart/flutter_wasm
+documentation:
+dependencies:
+  flutter:
+    sdk: flutter
+  meta: ^1.1.6
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: any
+dependency_overrides:
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+executables:
+flutter:
+  plugin:
+    androidPackage: com.github.drydart.flutter_wasm
+    pluginClass: FlutterWasmPlugin
