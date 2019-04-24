@@ -17,7 +17,7 @@ void main() {
     channel.setMockMethodCallHandler(null);
   });
 
-  test('getPlatformVersion', () async {
-    expect(await FlutterWasm.platformVersion, '42');
+  test('version', () async {
+    expect(await Wasm.version, '42');
   });
 }

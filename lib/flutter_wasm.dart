@@ -1,14 +1,18 @@
 /* This is free and unencumbered software released into the public domain. */
 
-import 'dart:async';
+/// WebAssembly interpreter for Flutter.
+library flutter_wasm;
 
-import 'package:flutter/services.dart';
+import 'dart:async' show Future;
+//import 'dart:io' show File;
 
-class FlutterWasm {
-  static const MethodChannel _channel = const MethodChannel('flutter_wasm');
+import 'package:flutter/services.dart' show MethodChannel, PlatformException;
 
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
+const MethodChannel _channel = const MethodChannel('flutter_wasm');
+
+abstract class Wasm {
+  /// The current WebAssembly runtime version.
+  static Future<String> get version async {
+    return await _channel.invokeMethod('getVersion');
   }
 }
