@@ -2,7 +2,7 @@
 name: flutter_wasm
 version: 0.1.0
 description: >-
-  Embeddable WebAssembly interpreter for Flutter apps.
+  Embeddable WebAssembly interpreter and runtime for Flutter apps.
 author: Arto Bendiken <arto@bendiken.net>
 homepage: https://github.com/drydart/flutter_wasm
 documentation:
