@@ -5,3 +5,4 @@ Flutter WebAssembly Plugin
 [![Pub package](https://img.shields.io/pub/v/flutter_wasm.svg)](https://pub.dartlang.org/packages/flutter_wasm)
 [![Dartdoc reference](https://img.shields.io/badge/dartdoc-reference-blue.svg)](https://pub.dartlang.org/documentation/flutter_wasm/latest/)
 [![Travis CI build status](https://img.shields.io/travis/drydart/flutter_wasm/master.svg)](https://travis-ci.org/drydart/flutter_wasm)
+[![Liberapay patrons](http://img.shields.io/liberapay/patrons/drydart.svg?logo=liberapay)](https://liberapay.com/drydart/donate)
